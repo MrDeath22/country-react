@@ -1,0 +1,26 @@
+.main__list {
+   display: grid;
+   grid-template-columns: repeat(4, auto);
+   justify-content: space-between;
+   grid-gap: 75px;
+   list-style: none;
+   padding: 0;
+}
+
+.main__item {
+   /* padding: 10px 20px; */
+   border-radius: 12px;
+   background: #fff;
+}
+
+.main__item-div {
+   padding: 20px 10px;
+}
+
+.main__item-title {
+   display: block;
+}
+
+.main__item-txt {
+   display: block;
+}
