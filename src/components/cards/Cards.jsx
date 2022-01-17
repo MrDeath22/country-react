@@ -7,7 +7,7 @@ export function Cards() {
          <div className="main__container container">
             <ul className="main__list">
                {
-                  arr.map(i => {
+                  arr.map(i => { 
                      return (
                         <li className="main__item">
                            <img width="220" src={i.src} alt="img" />
